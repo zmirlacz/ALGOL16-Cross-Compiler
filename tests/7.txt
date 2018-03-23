@@ -1,0 +1,6 @@
+program Write24 (*komen_tarz123'*)
+begin
+	write 24
+end
+
+program Write24 (*komen_ta439058__#@@ddrz123\'*)\nbegin\nwrite 24\nend

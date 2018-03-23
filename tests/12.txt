@@ -1,0 +1,9 @@
+program Dwanascie
+local x
+begin
+	if 
+		x <= 2 then x := x + 1
+	fi
+end
+
+program Dwanascie\nlocal x\nbegin\nif \nx <= 2 then x := x + 1 else write x\nfi\nend

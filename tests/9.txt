@@ -1,0 +1,13 @@
+program Dziewiec
+(*komen_tarz123'*)
+local x'_y5,  ecd__z''
+local e, g
+begin
+	write 4;
+	read e;
+	write 6;
+	write 2;
+	write (-2 + 2) + 4 * 5 div 9
+end
+
+program Dziewiec\n(*komen_tarz123\'*)\nlocal x\'_y5,  ecd__z\'\'\nlocal e, g\nbegin\nwrite 4;\nread e;\nwrite 6;\nwrite 2;\nwrite 2 + 2 + 4\nend\n

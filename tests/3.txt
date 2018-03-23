@@ -1,0 +1,7 @@
+program Trzy
+local x, y
+local z, g, f
+begin
+	read x
+end
+program Trzy\nlocal x, y\nlocal z, g, f\nbegin\nread x\nend

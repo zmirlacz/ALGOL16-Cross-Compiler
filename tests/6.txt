@@ -1,0 +1,8 @@
+program Cztery
+local x'_y5,  ecd__z''
+local e, g
+begin
+	write 4
+end
+
+program Cztery\nlocal x\'_y5,  ecd__z\'\'\nlocal e, g\nbegin\nwrite 4\nend

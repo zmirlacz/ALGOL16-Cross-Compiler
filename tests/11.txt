@@ -1,0 +1,7 @@
+program Dziesiec
+local x
+begin
+	x := 2 + 4
+end
+
+program Dziesiec\nlocal x\nbegin\nx := 2 + 4\nend

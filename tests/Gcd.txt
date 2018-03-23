@@ -1,0 +1,14 @@
+program gcd
+local x, y, t
+begin
+	read x;
+	read y;
+	while y <> 0 do
+		t := x mod y;
+		y := x;
+		x := t
+	done;
+	write y
+end
+
+program gcd\nlocal x, y, t\nbegin\nread x;\nread y;\nwhile y <> 0 do\nt := x mod y;\ny := x;\nx := t\ndone;\nwrite y\nend

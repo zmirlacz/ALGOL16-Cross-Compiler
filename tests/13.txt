@@ -1,0 +1,10 @@
+program Dwanascie
+begin
+	if 
+		1 <= 2 then 1
+	else
+		0
+	fi
+end
+
+program Dwanascie\nbegin\nif \n 1 <= 2 then write 1\nelse\nwrite 0 fi\nend

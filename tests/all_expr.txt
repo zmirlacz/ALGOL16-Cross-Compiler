@@ -1,0 +1,93 @@
+program example
+    local x
+    local y, z
+    local chucktest'a
+    local under_score
+begin
+    read  x;
+    write x;
+
+    (* comments *)
+    write 1;(* comment *)
+    write 2; (* comment *)
+    (* comment *)write 3;
+    (* comment *) write 4;
+    (* comment *)write 5;(* comment *)
+    (* comment *) write 6;(* comment *)
+    (* comment *)write 7; (* comment *)
+    (* comment *) write 8; (* comment *)
+
+    x := 10 + 10;
+    x := 10 * 10;
+    x := 10 div 10;
+
+    x := 2 + 3 * 4;
+    if x <> 14 then write -1 fi;
+
+    x := (2 + 3) * 4;
+    if x <> 20 then write -2 fi;
+
+    x := ((((2 + 3)))) * 4;
+    if x <> 20 then write -3 fi;
+
+    x := (12 * 6);                            if x <>  72 then write -4 fi;
+    x := (12 * 6 + 3);                        if x <>  75 then write -5 fi;
+    x := (12 * 6 + 3) * (2 + 1);              if x <> 225 then write -6 fi;
+
+    if  1 <  0 then write  -9 fi;
+    if  1 <= 0 then write -10 fi;
+    if  1 <> 0 then write   9 fi;
+    if  1 =  0 then write -11 fi;
+    if  1 >  0 then write  10 fi;
+    if  1 >= 0 then write  11 fi;
+    if  1 <  1 then write -12 fi;
+    if  1 <= 1 then write  12 fi;
+    if  1 <> 1 then write -13 fi;
+    if  1 =  1 then write  13 fi;
+    if  1 >  1 then write -14 fi;
+    if  1 >= 1 then write  14 fi;
+    if -1 <  0 then write  15 fi;
+    if -1 <= 0 then write  16 fi;
+    if -1 <> 0 then write  17 fi;
+    if -1 =  0 then write -15 fi;
+    if -1 >  0 then write -16 fi;
+    if -1 >= 0 then write -17 fi;
+
+    if 1 = 0 or  1 = 1 then write  18 fi;
+    if 1 = 1 or  1 = 0 then write  19 fi;
+    if 1 = 0 and 1 = 1 then write -18 fi;
+    if 1 = 1 and 1 = 0 then write -19 fi;
+
+    x := 1;
+    y := 1;
+
+    if x <> y then
+        write -20
+    else
+        write 20
+    fi;
+
+    x := -32500;
+    y :=  32500;
+
+    if x < y then
+        write 21
+    else
+        write -21
+    fi;
+
+    x :=  32500;
+    y := -32500;
+
+    if x > y then
+        write 22
+    else
+        write -22
+    fi;
+
+    if (9 - 1) div 2 = 4 then
+        write 23
+    else
+        write -23
+    fi
+end

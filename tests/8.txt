@@ -1,0 +1,13 @@
+program Cztery
+(*komen_tarz123'*)
+local x'_y5,  ecd__z''
+local e, g
+begin
+	write 4;
+	read e;
+	write 6;
+	write 2
+end
+
+program Cztery\n(*komen_tarz123\'*)begin\nwrite 4;\nread e;\nwrite 6; write 2 end
+

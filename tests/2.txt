@@ -1,0 +1,7 @@
+program Dwa
+local x
+begin
+	write 24
+end
+
+program Dwa\nlocal x\nbegin\n\twrite 24\nend

@@ -1,0 +1,7 @@
+program Cztery
+local x'y
+begin
+	write 4
+end
+
+program Cztery\nlocal x\'y\nbegin\nwrite 4\nend

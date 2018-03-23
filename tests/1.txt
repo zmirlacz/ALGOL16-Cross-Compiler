@@ -1,0 +1,6 @@
+program Write24
+begin
+	write 24
+end
+
+program Write24\nbegin\nwrite 24\nend

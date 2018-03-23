@@ -1,0 +1,13 @@
+program Czternascie
+local x, y
+begin
+	x := 0;
+	y := 4;
+	while x < y 
+	do
+	x := x + 1;
+	write x
+	done
+end
+
+program Czternascie\nbegin\nwhile 2 < 3 \ndo\nwrite 1\ndone\nend

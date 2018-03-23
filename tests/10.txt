@@ -1,0 +1,6 @@
+program Dziesiec
+begin
+	write -3 + 4 * 2 div 1
+end
+
+program Dziesiec\nbegin\nwrite -3 + 4 * 2 div 1\nend
