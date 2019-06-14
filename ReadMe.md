@@ -1,4 +1,21 @@
 # ALGOL16-Cross-Compiler
-Kompilator napisany w Prologu dla zdefiniowanego dla celów naukowych języka programowania ALGOL16(analogicznie jak ALGOL60). Translacja odbywa się do kodu maszynowego procesora Sextium III, którego architektura również zdefiniowana została w celach naukowych. Procesor był emulowany poprzez kod napisany w C przez wykładowcę przedmiotu. Nie zamieszczam kodu źródłowego procesora, ponieważ nie uzyskałem jeszcze zgody wykładowcy. Zamieszczam kod źródłowy w prologu oraz treść zadania.
 
+##Short description
+As an academic exercise I wrote a compiler for simple programming language called **ALGOL16**.
 
+Compiler is written in **Prolog**, which provides very convenient concept for writing parsers called definite clause grammars.
+
+##ALGOL16
+* Documentation of language grammar can be found in doc folder.
+
+##Machine code
+* Code written in ALGOL16 is compiled to machine code of **Sextium III**. Sextium III is a virtual processor defined
+for the purpose of this project.
+
+* Documentation is in doc folder.
+
+##TODO:
+
+* Call by name/value
+* Nesting procedures
+* Recursive calls
